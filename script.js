@@ -1,3 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("Welcome to Pooja's Portfolio!");
+// JavaScript to add interactive behavior
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Portfolio loaded successfully!");
 });
