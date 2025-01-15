@@ -1,34 +1,48 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    color: #333;
     margin: 0;
     padding: 0;
 }
+
 header {
-    background-color: #007acc;
-    color: #fff;
+    background-color: #6c63ff;
+    color: white;
     text-align: center;
-    padding: 20px 0;
-}
-section {
     padding: 20px;
-    margin: 10px 0;
 }
-h1, h2 {
-    color: #333;
-}
-ul {
+
+nav ul {
     list-style-type: none;
     padding: 0;
-}
-footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 10px 0;
 }
-a {
-    color: #007acc;
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #6c63ff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
 }
