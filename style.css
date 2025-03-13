@@ -59,7 +59,6 @@ footer {
 .cert-badge {
     width: 150px;  /* Adjust size */
     height: 150px;
-    border-radius: 50%; /* Makes it a circle */
     display: block;
     margin: 10px auto; /* Centers the image */
     border: 3px solid #007acc; /* Adds a border */ 
